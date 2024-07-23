@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 
 //const mongoURI = "mongodb+srv://sensanjana072:3d6hMkpvevksYdKe@financetracker.9ynhop6.mongodb.net/";
-const mongoURI = "mongodb+srv://sensanjana072:3d6hMkpvevksYdKe@financetracker.9ynhop6.mongodb.net/your-database-name?retryWrites=true&w=majority";
+const mongoURI = "mongodb+srv://sensanjana072:3d6hMkpvevksYdKe@financetracker.9ynhop6.mongodb.net/test?retryWrites=true&w=majority";
 
 
 mongoose

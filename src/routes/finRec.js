@@ -6,6 +6,7 @@ const financialRecordRouter = express.Router();
 
 financialRecordRouter.get("/getAllByUserID/:userId" ,async(req,res)=>{
     try {
+        console.log("u r in get");
         const userId = req.params.userId;
         const records = await financialRecordModel.find({userId:userId});
 
